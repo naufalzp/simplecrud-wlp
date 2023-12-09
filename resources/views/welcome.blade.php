@@ -421,7 +421,10 @@
                 @endauth
             </div>
         @endif
-
+        <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
+            <a href="{{ url('/pegawai') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Pegawai</a>
+            <a href="{{ url('/mahasiswa') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Mahasiswa</a>
+        </div>
         <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
             <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
                 <svg viewBox="0 0 651 192" fill="none" xmlns="http://www.w3.org/2000/svg"
@@ -446,7 +449,7 @@
                             <div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laravel.com/docs"
                                     class="underline text-gray-900 dark:text-white">Documentation</a></div>
                         </div>
-                        <h1 class="text-red-500 font-bold">
+                        <h1 class="text-gray-900 dark:text-white font-bold">
                             Icikiwir
                         </h1>
                         <div class="ml-12">
@@ -526,7 +529,8 @@
                                     href="https://laravel.com/docs/broadcasting" class="underline">Echo</a>, <a
                                     href="https://laravel.com/docs/horizon" class="underline">Horizon</a>, <a
                                     href="https://laravel.com/docs/sanctum" class="underline">Sanctum</a>, <a
-                                    href="https://laravel.com/docs/telescope" class="underline">Telescope</a>, and more.
+                                    href="https://laravel.com/docs/telescope" class="underline">Telescope</a>, and
+                                more.
                             </div>
                         </div>
                     </div>
